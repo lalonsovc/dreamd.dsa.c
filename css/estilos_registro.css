@@ -86,7 +86,7 @@ body{
 }
 .container-portada{
     width: 100%;
-    background-image: url(../image/giflog.gif);
+    background-image: url(image/giflog.gif);
     height: 100%;
     background-size: 120%;
     animation: movimiento 10s infinite linear alternate;
