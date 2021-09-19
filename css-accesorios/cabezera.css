@@ -1,0 +1,136 @@
+:root{
+    --bgColor: #17191b;
+    --colorNeon1: #33CCCC;
+    --colorNeon2:#cc33b8;
+    --colorFont:#fff;
+    --gradient: -webkit-linear-gradient(left, var(--colorNeon1), var(--colorNeon2));
+}
+
+*{margin: 0;padding: 0;box-sizing: border-box; font-family: sans-serif;}
+body{
+    padding-top: 150px;
+}
+.header{
+    background-color: var(--bgColor);
+    width: 100%;
+    height: 80px;
+    color: var(--colorFont);
+    display: flex;
+    justify-content: space-around;
+    position: fixed; /* Mantiene fijado el header*/
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.logo{
+    padding-left: 60px;
+    line-height: 80px;
+    background-image: linear-gradient(45deg, var(--colorNeon1),var(--colorNeon2) );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color:transparent;
+    -moz-text-fill-color:transparent;
+}
+
+.buscador{
+    width: 25%;
+    height: 35px;
+    color: #363738;
+    font-size: 15;
+    font-weight: bold;
+    padding-left: 10px;
+    align-self: center;
+}
+.icons{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 60px;
+    width: 20%;
+   
+}
+.icons button{
+    background: none;
+    border: none;
+    cursor: pointer;
+   
+}
+.icons button svg{
+    width: 40px;
+    height: 40px;
+    
+    transition: 0.5s;
+    color: var(--colorNeon1);
+
+}
+
+.icons button svg:hover{
+    width: 60px;
+    height: 60px;
+    transition: 0.5s;
+    
+}
+.nav{
+    width: 100%;
+    height: 40px;
+    background-color: var(--bgColor);
+    position: fixed; /* Mantiene fijado el navbar*/
+    top: 80px;
+    left: 0;
+    z-index: 1;
+
+}
+.nav-menu{
+    width: 800px;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    list-style: none;
+}
+
+/*========  Menu Desplegable =========*/
+
+.nav-menu li ul{
+    list-style: none;
+    margin-top: 18px;
+}
+
+.nav-menu  li ul li a{
+    background-color: var(--bgColor);
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 15px;
+    display: block;
+}
+.nav-menu > li{
+    float: left;
+}
+.nav-menu a:hover{
+
+    border: 3px solid transparent;
+    border-image: var(--gradient);
+    border-image-slice: 1%;
+    transition: 0.1s;
+}
+
+.nav-menu li ul{
+    display:none;
+    position: absolute;
+    min-height: 170px;
+}
+.nav-menu li:hover > ul{
+    display: block;
+}
+/*=================================*/
+
+
+.nav-menu-item{
+   text-transform: uppercase;
+   font-size: 18px;
+}
+.nav-menu-link{
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 20px;
+    transition: 0.3s;
+}

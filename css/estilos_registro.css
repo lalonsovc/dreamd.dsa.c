@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+}
+#uno{
+    width: 2000px;
+    background-color: black;
+    color: white;
+    height: 90px;
+
+}
+#boton{
+    border: none;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    font-size: 40px;
+    margin-right: 10px;
+}
+#boton2{
+    border: none;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    font-size: 40px;
+    transition: .3s ease all;
+}
+#va{
+    float: right;
+    right: 10px;
+    margin-bottom: 150px;
+}
+.input-cont{
+    float: left;
+    margin-left: 10px;
+}
+.input{
+    width: 250px;
+    height: 40px;
+    position: relative;
+    left: 90px;
+}
+.input input{
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    font-size: 18px;
+    background: none;
+}
+.input label{
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+.input input:focus ~label,
+.input input:valid ~label{
+    transform: translateY(-20px);
+    font-size: 16px;
+    color: silver;
+}
+.input input:focus,
+.input input:valid{
+    border-color: silver;
+}
+#forma{
+    position: relative;
+    height: 60px;
+    top: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    float: left;
+    color: white;
+    text-decoration: none;
+}
+.container-portada{
+    width: 100%;
+    background-image: url(../IMAGE/giflog.gif);
+    height: 100%;
+    background-size: 120%;
+    animation: movimiento 10s infinite linear alternate;
+}
+@keyframes movimiento{
+    from{
+        background-position: bottom right;
+    }to{
+        background-position: top left;
+    }
+}
+.capa-gradient{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: -webkit-linear-gradient(left, black, #33CCCC);
+    opacity: 0.5;
+}
+.container-details{
+    width: 100%;
+    max-width: 1200px;
+    position: relative;
+}
+/*pingu-lorem-detalles*/
+.details{
+    width: 100%;
+    max-width: 500px;
+    position: relative;
+    top: 60px;
+    color: white;
+    left: 60px;
+}
+.details h1{
+    font-size: 40px;
+    font-weight: 100;
+}
+.details p{
+    margin-top: 10px;
+}
+.details button{
+    padding: 10px 20px;
+    font-size: 16px;
+    background: none;
+    border-style: none;
+    border: 1px solid white;
+    color: white;
+    margin-top: 20px;
+    transition: all 300ms;
+    cursor: pointer;
+}
+.details button:hover{
+    background: white;
+    color: black;
+}
+.for{
+    position: relative;
+    background: #24303c;
+    left: 340px;
+    bottom: 200px;
+    width: 500px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 2px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #33CCCC;
+}
+.for h4{
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.controls{
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #33CCCC;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+}
+.for p{
+    height: 40px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 40px;
+}
+.for a{
+    color: white;
+    text-decoration: none;
+}
+.for a:hover{
+    color: white;
+    text-decoration: underline;
+}
+.for .botons{
+    width: 100%;
+    background: #33CCCC;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+    cursor: pointer;
+}

@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/principal.css">
+    <link rel="stylesheet" href="css-accesorios/pfooter.css">
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header">
+        <h1 class="logo">DREAMD</h1>
+        <input type="search" placeholder="¿Qué estas buscando?" class="buscador">
+        <div class="icons">
+            <a href="login.html"> <button class="boton-user">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                    <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                    <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+                  </svg></a>
+            </button>
+            
+            <button class="boton-carrito">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+                    <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                  </svg>
+            </button>
+            <button class="boton-favoritos">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                    <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                  </svg>
+            </button>
+        </div>
+        
+    </header>
+    <nav class="nav">
+        <ul class="nav-menu">
+            <li class="nav-menu-item"><a href="PagVideojuegos.html" class="nav-menu-link">Videojuegos</a>
+                <ul>
+                    <li><a href="">de Pc</a></li>
+                    <li><a href="">de Playstation 4</a></li>
+                    <li><a href="">de Playstation 5</a></li>
+                    <li><a href="">de Xbox</a></li>
+                    <li><a href="">de Nintendo Switch</a></li>
+                    
+                </ul>
+            </li>
+            <li class="nav-menu-item"><a href="accesorios.html" class="nav-menu-link">accesorios</a>
+                <ul>
+                    <li><a href="">Ps4</a></li>
+                    <li><a href="">Ps5</a></li>
+                    <li><a href="">PC</a></li>
+                    <li><a href="">Nintendo Switch</a></li>
+                    
+                </ul>
+            </li>
+            <li class="nav-menu-item"><a href="consolas.html" class="nav-menu-link">consolas</a>
+                <ul>
+                    <li><a href="">Ps4</a></li>
+                    <li><a href="">Ps5</a></li>
+                    <li><a href="">Xbox</a></li>
+                    <li><a href="">Nintendo Switch</a></li>
+                    
+                </ul>
+            </li>
+            
+            <li class="nav-menu-item"><a href="merch1.html" class="nav-menu-link">Merch</a></li>
+            <li class="nav-menu-item"><a href="" class="nav-menu-link">Novedades</a></li>
+        </ul>
+    </nav>
+    <div class="container-all">
+        <input type="radio" id="1" name="image-slide" hidden/>
+        <input type="radio" id="2" name="image-slide" hidden/>
+        <input type="radio" id="3" name="image-slide" hidden/>
+        <input type="radio" id="4" name="image-slide" hidden/>
+
+    <div class="slide">
+        <div class="item-slide"><img class="hola12" src="IMAGE/miles.jpg"></div>
+        <div class="item-slide"><img class="hola12" src="IMAGE/juego2.jpg"></div>
+        <div class="item-slide"><img class="hola12" src="IMAGE/Juego3.jpg"></div>
+        <div class="item-slide"><img class="hola12" src="IMAGE/ghost.jpg"></div>
+    </div>
+
+    <div class="pagination">
+        <label class="pagination-item" for="1"><img class="hola12" src="IMAGE/miles.jpg"></label>
+        <label class="pagination-item" for="2"><img class="hola12" src="IMAGE/juego2.jpg"></label>
+        <label class="pagination-item" for="3"><img class="hola12" src="IMAGE/Juego3.jpg"></label>
+        <label class="pagination-item" for="4"><img class="hola12" src="IMAGE/ghost.jpg"></label>
+    </div></div>
+    <!-- destacado -->
+    <div id="DESTACADO"><a href="" id="letra">LO MAS PEDIDO</a></div><BR>
+    <div>
+    <div id="destacado">
+        <a href=""><img class="dest" src="IMAGE/paque.jpg" alt=""></a>
+        <a href=""><img class="dest" src="IMAGE/paque2.jpg" alt=""></a>
+    </div><br>
+    <div id="destacado2">
+        <a href=""><img class="desta" src="IMAGE/paque3.jpg" alt=""></a>
+        <a href=""><img class="desta" src="IMAGE/paque4.jpg" alt=""></a>
+        <a href=""><img class="desta" src="IMAGE/paque5.jpg"></a>
+    </div>
+    </div>
+    <!-- lo mas pedido -->
+    <div id="PEDIDO"><a href="PagVideojuegos.html" id="letra">VIDEOJUEGOS</a></div><BR>
+        <div id="juegos">
+
+            <div class="pom">
+            <div class="caja">
+            <a href=""><img class="ima" src="IMAGE/war.png"></a>
+            <div class="texto"><p>Ver</p></div>
+            </div><center><p style="font-size: 15px;">WARFRAME<br><center><b>$/1,249.90</b></center></p></center>
+            <br><button class="addCar">Añadir al carrito</button>
+            </div>
+    
+            <div class="pom">
+            <div class="caja2">
+            <a href=""><img class="ima" src="IMAGE/god.jpg"></a>
+            <div class="texto2"><p>Ver</p></div>
+            </div><center><p style="font-size: 15px;">GOD OF WAR<br><center><b>$/1,249.90</b></center></p></center>
+            <br><button class="addCar">Añadir al carrito</button>
+            </div>
+           
+            <div class="pom">
+            <div class="caja">
+            <a href=""><img class="ima" src="IMAGE/halo.png"></a>
+            <div class="texto"><p>Ver</p></div>
+            </div><center><p style="font-size: 15px;">HALO<br><center><b>$/1,249.90</b></center></p></center>
+            <br><button class="addCar">Añadir al carrito</button>
+            </div>
+            
+            <div class="pom">
+            <div class="caja2">
+            <a href=""><img class="ima" src="IMAGE/jump.jpg"></a>
+            <div class="texto2"><p>Ver</p></div>
+            </div><center><p style="font-size: 15px;">JUMP FORCE<br><center><b>$/1,249.90</b></center></p></center>
+            <br><button class="addCar">Añadir al carrito</button>
+            </div>
+            
+            <div class="pom">
+            <div class="caja">
+            <a href=""><img class="ima" src="IMAGE/COD.jpg"></a>
+            <div class="texto"><p>Ver</p></div>
+            </div><center><p style="font-size: 15px;">COD<br><center><b>$/1,249.90</b></center></p></center>
+            <br><button class="addCar">Añadir al carrito</button>
+            </div>
+            
+            <div class="pom">
+            <div class="caja2">
+            <a href=""><img class="ima" src="IMAGE/infa.jpg"></a>
+            <div class="texto2"><p>Ver</p></div>
+            </div><center><p style="font-size: 15px;">INFAMOUS<br><center><b>$/1,249.90</b></center></p></center>
+            <br><button class="addCar">Añadir al carrito</button>
+            </div>
+            
+        </div>
+    <!-- ACCESORIOS -->
+    <div id="ACC"><a href="accesorios.html" id="letra">ACCESORIOS</a></div><BR>
+    <div id="accesorio">
+
+        <div class="pom">
+        <div class="cajon">
+        <a href=""><img class="acce" src="IMAGE/acce.jpg"></a>
+        <div class="texto3"><p>Ver</p></div>
+        </div><center><p style="font-size: 15px;">PROMO SILLA:TAROK<br><center><b>$/1,249.90</b></center></p></center>
+        <br><button class="addCar">Añadir al carrito</button>
+        </div>
+
+        <div class="pom">
+        <div class="cajon">
+        <a href=""><img class="acce" src="IMAGE/acce2.jpg"></a>
+        <div class="texto3"><p>Ver</p></div>
+        </div><center><p style="font-size: 15px;">HORIZON FORBIDDEN<br><center><b>$/1,249.90</b></center></p></center>
+        <br><button class="addCar">Añadir al carrito</button>
+        </div>
+       
+        <div class="pom">
+        <div class="cajon">
+        <a href=""><img class="acce" src="IMAGE/acce3.jpg"></a>
+        <div class="texto3"><p>Ver</p></div>
+        </div><center><p style="font-size: 15px;">PS5 HORIZON FORBIDDEN<br><center><b>$/1,249.90</b></center></p></center>
+        <br><button class="addCar">Añadir al carrito</button>
+        </div>
+        
+        <div class="pom">
+        <div class="cajon">
+        <a href=""><img class="acce" src="IMAGE/acce4.jpg"></a>
+        <div class="texto3"><p>Ver</p></div>
+        </div><center><p style="font-size: 15px;">PS5:PROMOCION DUALSENSE<br><center><b>$/1,249.90</b></center></p></center>
+        <br><button class="addCar">Añadir al carrito</button>
+        </div>
+        
+        <div class="pom">
+        <div class="cajon">
+        <a href=""><img class="acce" src="IMAGE/acce5.jpg"></a>
+        <div class="texto3"><p>Ver</p></div>
+        </div><center><p style="font-size: 15px;">PS5:PROMOCION DUALSENSE<br><center><b>$/1,249.90</b></center></p></center>
+        <br><button class="addCar">Añadir al carrito</button>
+        </div>
+        
+        <div class="pom">
+        <div class="cajon">
+        <a href=""><img class="acce" src="IMAGE/acce6.jpg"></a>
+        <div class="texto3"><p>Ver</p></div>
+        </div><center><p style="font-size: 15px;">SILLA DXT:RACING<br><center><b>$/1,249.90</b></center></p></center>
+        <br><button class="addCar">Añadir al carrito</button>
+        </div>     
+    </div>
+    <!-- CONSOLAS -->
+    <div id="CON"><a href="consolas.html" id="letra">CONSOLAS</a></div><BR>
+    <div>
+    <div id="consola">
+        <a href=""><img class="cana" src="IMAGE/cons.jpg" alt=""></a>
+        <a href=""><img class="cana" src="IMAGE/cons2.jpg" alt=""></a>
+        <a href=""><img class="cana" src="IMAGE/cons3.jpg"></a>
+    </div><br>
+    <div id="consola2">
+        <a href=""><img class="can" src="IMAGE/cons4ç.jpg" alt=""></a>
+        <a href=""><img class="can" src="IMAGE/cons5.jpg" alt=""></a>
+    </div>
+    </div><br>
+    <a href="https://api.whatsapp.com/send?phone=+51902253432" class="btn-wsp" target="_blank">
+	    <i class="fa fa-whatsapp icono"></i>
+	</a>
+    <footer>
+		<div id="contenedor_2">
+			<div id="bloque1">
+				<h1 class="l1">DREAMD</h1>
+				<div class="cua1"><a href="#">Condiciones de uso</a></div>
+				<div class="cua1"><a href="#">Política de privacidad</a></div>
+				<div class="cua1"><a href="#">Política de cookies</a></div>
+			</div>
+			<div id="bloque2">
+				<h2>SÍGUENOS EN:</h2>
+				<img class="hola" src="img-footer/i-facebook.jpg" style="width: 30px;">
+				<img class="hola" src="img-footer/i-instagram_.jpg" style="width: 30px;">
+				<img class="hola" src="img-footer/i-youtube.jpg" style="width: 30px;">
+				<img class="hola" src="img-footer/i-twitter.jpg" style="width: 30px;">
+				<img class="hola" src="img-footer/i-twitch.jpg" style="width: 30px;">
+			</div>
+		</div>
+		<div id="contenedor_3">
+			<img class="hola" src="img-footer/visa.jpg" >
+			<img class="hola" src="img-footer/mastercard.jpg" >
+			<img class="hola" src="img-footer/aexpress.jpg" >
+			<img class="hola" src="img-footer/paypal.jpg"><br>
+			&#169 DREAMD. Todos los derechos reservados.
+		</div>
+	</footer>
+</body>
+</html>
