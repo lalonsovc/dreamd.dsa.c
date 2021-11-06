@@ -221,8 +221,8 @@ color: white;border: 6px solid transparent;border-image: var(--gradient);border-
 
 #subjuego1{width: 200px;height: 350px;position: absolute;background: white;margin-top: 1050px;margin-left: 400px;}
 #subprecio1{width: 150px;height: 50px;position: absolute;background: white;text-align: center;margin-left: 25px;}
-#subbotan1{width: 50px;height: 30px;position: absolute;background: white;text-align: center;margin-top: 47px;}
-#subton1{width: 150px;height: 30px;position: absolute;background: #17191b;cursor: pointer;color: white;
+#subbotan1{width: 150px;height: 30px;position: absolute;background: white;text-align: center;margin-top: 47px;}
+#subton1{width: 100%;;height: 30px;position: absolute;background: #17191b;cursor: pointer;color: white;
 border: 4px solid transparent;border-image: var(--gradient);border-image-slice: 1%;}
 
 #subjuego2{width: 200px;height: 350px;position: absolute;background: white;margin-top: 1050px;margin-left: 700px;}
