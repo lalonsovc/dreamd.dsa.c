@@ -142,41 +142,40 @@ body{
 ;text-align: center;font-family: sans-serif;border-left:3px solid #33CCCC;border-right:3px solid #cc33b8;}
 
 #ps4{width: 200px;height: 25px;position: fixed;margin-top: 150px;margin-left: 25px;background: none;color: white;cursor: pointer;
-border: 3px solid transparent;border-image: var(--gradient);border-image-slice: 1%;}
+border: 3px solid transparent;}
 
 #ps5{width: 200px;height: 25px;position: fixed;margin-top: 190px;margin-left: 25px;background: none;color: white;cursor: pointer;
-border: 3px solid transparent;border-image: var(--gradient);border-image-slice: 1%;}
+border: 3px solid transparent;}
 
 #nintendo{width: 200px;height: 25px;position: fixed;margin-top: 230px;margin-left: 25px;background: none;color: white;cursor: pointer;
-border: 3px solid transparent;border-image: var(--gradient);border-image-slice: 1%;}
+border: 3px solid transparent;}
 
 #pc{width: 200px;height: 25px;position: fixed;margin-top: 270px;margin-left: 25px;background: none;color: white;cursor: pointer;
-border: 3px solid transparent;border-image: var(--gradient);border-image-slice: 1%;}
+border: 3px solid transparent;}
 
 #xboxone{width: 200px;height: 25px;position: fixed;margin-top:310px;margin-left: 25px;background: none;color: white;cursor: pointer;
-border: 3px solid transparent;border-image: var(--gradient);border-image-slice: 1%;}
+border: 3px solid transparent;}
 
 #genero{width: 250px;height: 460px;position: fixed;background: #17191b;margin-top: 370px;color: white
 ;text-align: center;font-family: sans-serif;border-left:3px solid #33CCCC;border-right:3px solid #cc33b8;
 border-bottom:3px solid #cc33b8;}
 
-#aventura{width: 200px;height: 25px;position: fixed;margin-top: 400px;margin-left: 25px;background: none;color: white;cursor: pointer;
-border: 3px solid transparent;border-image: var(--gradient);border-image-slice: 1%;}
+#aventura{width: 200px;height: 25px;position: fixed;margin-top: 400px;margin-left: 25px;background: none;color: white;cursor: pointer;border-style: none;}
 
-#royale{width: 200px;height: 25px;position: fixed;margin-top: 440px;margin-left: 25px;background: none;color: white;cursor: pointer;
-border: 3px solid transparent;border-image: var(--gradient);border-image-slice: 1%;}
+#royale{width: 200px;height: 25px;position: fixed;margin-top: 440px;margin-left: 25px;background: none;color: white;cursor: pointer;border-style: none;
+}
 
-#carrera{width: 200px;height: 25px;position: fixed;margin-top: 480px;margin-left: 25px;background: none;color: white;cursor: pointer;
-border: 3px solid transparent;border-image: var(--gradient);border-image-slice: 1%;}
+#carrera{width: 200px;height: 25px;position: fixed;margin-top: 480px;margin-left: 25px;background: none;color: white;cursor: pointer;border-style: none;
+}
 
-#fps{width: 200px;height: 25px;position: fixed;margin-top: 520px;margin-left: 25px;background: none;color: white;cursor: pointer;
-border: 3px solid transparent;border-image: var(--gradient);border-image-slice: 1%;}
+#fps{width: 200px;height: 25px;position: fixed;margin-top: 520px;margin-left: 25px;background: none;color: white;cursor: pointer;border-style: none;
+}
 
-#rpg{width: 200px;height: 25px;position: fixed;margin-top: 560px;margin-left: 25px;background: none;color: white;cursor: pointer;
-border: 3px solid transparent;border-image: var(--gradient);border-image-slice: 1%;}
+#rpg{width: 200px;height: 25px;position: fixed;margin-top: 560px;margin-left: 25px;background: none;color: white;cursor: pointer;border-style: none;
+}
 
 #tactica{width: 200px;height: 25px;position: fixed;margin-top: 600px;margin-left: 25px;background: none;color: white;cursor: pointer;
-border: 3px solid transparent;border-image: var(--gradient);border-image-slice: 1%;}
+border-style: none;}
 
 #preventa{width: 900px;height: 50px;position: absolute;margin-top: 150px;margin-left: 350px;background: black;text-align: center;
 color: white;border: 6px solid transparent;border-image: var(--gradient);border-image-slice: 1%;}

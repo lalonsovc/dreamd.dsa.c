@@ -1,2 +1,2 @@
 # Dreamd Store
-Visita nuestra página :)
+Visita nuestra página :D

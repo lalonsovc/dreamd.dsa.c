@@ -104,11 +104,10 @@
 }
 .nav-menu a:hover{
 
-     border-top:3px solid #33CCCC;
-    border-left:3px solid #33CCCC;
-    border-right:3px solid #cc33b8;
-    border-bottom:3px solid #cc33b8;
-    
+    border: 3px solid transparent;
+    border-image: var(--gradient);
+    border-image-slice: 1%;
+    transition: 0.1s;
 
     
 
