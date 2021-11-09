@@ -21,7 +21,7 @@
     z-index: 10;
 }
 .logo{
-    padding-left: 60px;
+    padding-left: 40px;
     line-height: 80px;
     background-image: linear-gradient(45deg, var(--colorNeon1),var(--colorNeon2) );
     background-clip: text;
@@ -32,13 +32,14 @@
 }
 
 .buscador{
-    width: 350px;
+    width: 300px;
     height: 35px;
     color: #363738;
     font-size: 15;
     font-weight: bold;
     padding-left: 10px;
     align-self: center;
+    margin-left: 30px;
 }
 .icons{
     display: flex;
@@ -415,7 +416,7 @@ input[id="4"]:checked ~ .pagination .pagination-item[for="4"]{
 }
 .desta{
     width: 100px;
-    height: 245px;
+    height: 200px;
     cursor: pointer;
 }
 .addCar{
@@ -659,5 +660,87 @@ h2{
         line-height: 66px;
 	}
 }
+.toggle{
+    font-size: 2.5rem;
+    background: none;
+    border: none;
+    background-image: linear-gradient(45deg, var(--colorNeon2),var(--colorNeon1));
+        background-clip: text;
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        -webkit-text-fill-color:transparent;
+        -moz-text-fill-color:transparent;
+        transition: 0.1s;
+    display: none;
 
 
+}
+
+@media(max-width:900px){
+    .header{
+        justify-content: space-between;
+        padding: 0 50px;
+        display: flex;
+      
+    }
+   .logo{
+       font-size: 2.5rem;
+   }
+    .nav{
+        height: 100%;
+        background: linear-gradient(var(--bgColor) 15%,#201620 85%);
+        position: fixed;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        padding:20px 0;
+        
+        height: calc(100% - 60px);
+        overflow-y: auto;
+        left: 100%;
+        transition: 0.3s;
+    }
+    .nav-menu{
+        position: fixed;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+        margin: 60px auto;
+        list-style: none;
+        gap: 70px;
+
+        
+       
+    }
+    .nav-menu-item{
+        font-size: 1.4rem;
+    }
+    
+    .nav-menu a:hover{
+        border: none;
+        background-image: linear-gradient(45deg, var(--colorNeon2),var(--colorNeon1));
+        background-clip: text;
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        -webkit-text-fill-color:transparent;
+        -moz-text-fill-color:transparent;
+        transition: 0.1s; 
+        transition: 0.1s;
+    }
+    .buscador{
+        display: none;
+    }
+    .icons{
+        display: none;
+        
+    }
+    .toggle{
+
+        display: block;
+    }
+    .menu_visible{
+        left: 0;
+        transition: 0.2s;
+    }
+}
