@@ -1,0 +1,85 @@
+.header{
+    justify-content: space-between;
+    padding: 0 50px;
+    display: flex;
+  
+}
+.logo{
+   font-size: 2.5rem;
+}
+.toggle{
+    font-size: 2.5rem;
+    background: none;
+    border: none;
+    background-image: linear-gradient(45deg, var(--colorNeon2),var(--colorNeon1));
+        background-clip: text;
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        -webkit-text-fill-color:transparent;
+        -moz-text-fill-color:transparent;
+        transition: 0.1s;
+    display: none;
+
+
+}
+
+.nav{
+    height: 100%;
+    background: linear-gradient(var(--bgColor) 15%,#201620 85%);
+    position: fixed;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    padding:20px 0;
+    
+    height: calc(100% - 60px);
+    overflow-y: auto;
+    left: 100%;
+    transition: 0.3s;
+}
+.nav-menu{
+    position: fixed;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 60px auto;
+    list-style: none;
+    gap: 70px;
+
+    
+   
+}
+.nav-menu-item{
+    font-size: 1.4rem;
+}
+
+.nav-menu a:hover{
+    border: none;
+    background-image: linear-gradient(45deg, var(--colorNeon2),var(--colorNeon1));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color:transparent;
+    -moz-text-fill-color:transparent;
+    transition: 0.1s; 
+    transition: 0.1s;
+}
+.nav-menu-item ul li{
+    display: none;
+}
+.buscador{
+    display: none;
+}
+.icons{
+    display: none;
+    
+}
+.toggle{
+
+    display: block;
+}
+.menu_visible{
+    left: 0;
+    transition: 0.2s;
+}

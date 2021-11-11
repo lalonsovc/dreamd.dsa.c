@@ -34,6 +34,21 @@ body{
     -moz-text-fill-color:transparent;
     font-size: 50px;
 }
+.toggle{
+    font-size: 2.5rem;
+    background: none;
+    border: none;
+    background-image: linear-gradient(45deg, var(--colorNeon2),var(--colorNeon1));
+        background-clip: text;
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        -webkit-text-fill-color:transparent;
+        -moz-text-fill-color:transparent;
+        transition: 0.1s;
+    display: none;
+
+
+}
 
 .buscador{
     width: 25%;
