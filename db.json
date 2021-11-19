@@ -1,0 +1,403 @@
+{
+  "articulos": [
+    {
+      "id": "10001",
+      "categoría": "videojuegos",
+      "precio": "349.90",
+      "nombre": "call of duty vanguard",
+      "stock": "26"
+    },
+    {
+      "id": "10002",
+      "categoría": "videojuegos",
+      "precio": "389.00",
+      "nombre": "ps5 fifa 22",
+      "stock": "15"
+    },
+    {
+      "id": "10003",
+      "categoría": "videojuegos",
+      "precio": "299.00",
+      "nombre": "marvels guardians of the galaxy",
+      "stock": "18"
+    },
+    {
+      "id": "10004",
+      "categoría": "videojuegos",
+      "precio": "269.00",
+      "nombre": "death strading directors cut",
+      "stock": "15"
+    },
+    {
+      "id": "10005",
+      "categoría": "videojuegos",
+      "precio": "219.00",
+      "nombre": "metroid dread nintendo switch",
+      "stock": "15"
+    },
+    {
+      "id": "10001",
+      "categoría": "videojuegos",
+      "precio": "349.90",
+      "nombre": "call of duty vanguard",
+      "stock": "26"
+    },
+    {
+      "id": "10007",
+      "categoría": "videojuegos",
+      "precio": "269.00",
+      "nombre": "assassins creed valhalla",
+      "stock": "10"
+    },
+    {
+      "id": "10008",
+      "categoría": "videojuegos",
+      "precio": "339.00",
+      "nombre": "call of duty black ops cold war",
+      "stock": "17"
+    },
+    {
+      "id": "10009",
+      "categoría": "videojuegos",
+      "precio": "259.00",
+      "nombre": "gear club unlimited 2 track edition",
+      "stock": "16"
+    },
+    {
+      "id": "10010",
+      "categoría": "videojuegos",
+      "precio": "239.00",
+      "nombre": "far cry 5",
+      "stock": "15"
+    },
+    {
+      "id": "10011",
+      "categoría": "videojuegos",
+      "precio": "309.00",
+      "nombre": "resident evil - village(deluxe)",
+      "stock": "15"
+    },
+    {
+      "id": "10012",
+      "categoría": "videojuegos",
+      "precio": "279.00",
+      "nombre": "resident evil - village",
+      "stock": "18"
+    },
+    {
+      "id": "10013",
+      "categoría": "videojuegos",
+      "precio": "299.00",
+      "nombre": "crash bandicoot 4 - its about time",
+      "stock": "18"
+    },
+    {
+      "id": "10014",
+      "categoría": "videojuegos",
+      "precio": "279.00",
+      "nombre": "spider-man miles morales",
+      "stock": "14"
+    },
+    {
+      "id": "10015",
+      "categoría": "videojuegos",
+      "precio": "389.00",
+      "nombre": "ratchet & clank - una dimension aparte",
+      "stock": "12"
+    },
+    {
+      "id": "20001",
+      "categoría": "accesorios",
+      "precio": "340.00",
+      "nombre": "audifonos negro ps4",
+      "stock": "12"
+    },
+    {
+      "id": "20002",
+      "categoría": "accesorios",
+      "precio": "320.00",
+      "nombre": "controles joy-con neon verde",
+      "stock": "18"
+    },
+    {
+      "id": "20003",
+      "categoría": "accesorios",
+      "precio": "88.00",
+      "nombre": "soporte vertical multifunción ps4 pro",
+      "stock": "14"
+    },
+    {
+      "id": "20004",
+      "categoría": "accesorios",
+      "precio": "450.00",
+      "nombre": "mouse logitec g502",
+      "stock": "14"
+    },
+    {
+      "id": "20005",
+      "categoría": "accesorios",
+      "precio": "280.00",
+      "nombre": "pro controller negro nintendo switch",
+      "stock": "10"
+    },
+    {
+      "id": "20006",
+      "categoría": "accesorios",
+      "precio": "320.00",
+      "nombre": "cable cargador para nintendo switch",
+      "stock": "15"
+    },
+    {
+      "id": "20007",
+      "categoría": "accesorios",
+      "precio": "240.00",
+      "nombre": "headset hyperx cloud stinger",
+      "stock": "16"
+    },
+    {
+      "id": "20008",
+      "categoría": "accesorios",
+      "precio": "320.00",
+      "nombre": "controles joy-azul con amarillo",
+      "stock": "13"
+    },
+    {
+      "id": "20009",
+      "categoría": "accesorios",
+      "precio": "320.00",
+      "nombre": "controles joy-rojo con azul",
+      "stock": "13"
+    },
+    {
+      "id": "20010",
+      "categoría": "accesorios",
+      "precio": "400.00",
+      "nombre": "teclado razer",
+      "stock": "15"
+    },
+    {
+      "id": "20011",
+      "categoría": "accesorios",
+      "precio": "499.00",
+      "nombre": "audífonos pulse 3d ps5, ps4",
+      "stock": "17"
+    },
+    {
+      "id": "20012",
+      "categoría": "accesorios",
+      "precio": "250.00",
+      "nombre": "cámara par ps5",
+      "stock": "16"
+    },
+    {
+      "id": "20013",
+      "categoría": "accesorios",
+      "precio": "148.00",
+      "nombre": "headset hyperx cloud stinger core",
+      "stock": "15"
+    },
+    {
+      "id": "20014",
+      "categoría": "accesorios",
+      "precio": "610.00",
+      "nombre": "control nacon revolution unlimited ps4",
+      "stock": "15"
+    },
+    {
+      "id": "20015",
+      "categoría": "accesorios",
+      "precio": "310.00",
+      "nombre": "control dualsense cosmic red ps5",
+      "stock": "10"
+    },
+    {
+      "id": "30001",
+      "categoría": "consolas",
+      "precio": "340.00",
+      "nombre": "consola nintendo switch",
+      "stock": "10"
+    },
+    {
+      "id": "30002",
+      "categoría": "consolas",
+      "precio": "320.00",
+      "nombre": "consola nintendo switch lite - amarilla",
+      "stock": "11"
+    },
+    {
+      "id": "30003",
+      "categoría": "consolas",
+      "precio": "88.00",
+      "nombre": "consola psp",
+      "stock": "14"
+    },
+    {
+      "id": "30004",
+      "categoría": "consolas",
+      "precio": "88.00",
+      "nombre": "consola psp go",
+      "stock": "8"
+    },
+    {
+      "id": "30005",
+      "categoría": "consolas",
+      "precio": "280.00",
+      "nombre": "play station 2",
+      "stock": "10"
+    },
+    {
+      "id": "30006",
+      "categoría": "consolas",
+      "precio": "320.00",
+      "nombre": "play station 3",
+      "stock": "15"
+    },
+    {
+      "id": "30007",
+      "categoría": "consolas",
+      "precio": "240.00",
+      "nombre": "play station 4 pro",
+      "stock": "17"
+    },
+    {
+      "id": "30008",
+      "categoría": "consolas",
+      "precio": "320.00",
+      "nombre": "play station 5 (digital)",
+      "stock": "15"
+    },
+    {
+      "id": "30009",
+      "categoría": "consolas",
+      "precio": "320.00",
+      "nombre": "nintendo wii",
+      "stock": "15"
+    },
+    {
+      "id": "30010",
+      "categoría": "consolas",
+      "precio": "320.00",
+      "nombre": "xbox 360",
+      "stock": "13"
+    },
+    {
+      "id": "30011",
+      "categoría": "consolas",
+      "precio": "400.00",
+      "nombre": "xbox one",
+      "stock": "13"
+    },
+    {
+      "id": "30012",
+      "categoría": "consolas",
+      "precio": "499.00",
+      "nombre": "xbox one s (version minecraft)",
+      "stock": "15"
+    },
+    {
+      "id": "40001",
+      "categoría": "merch",
+      "precio": "259.95",
+      "nombre": "paquete god of war kratos",
+      "stock": "15"
+    },
+    {
+      "id": "40002",
+      "categoría": "merch",
+      "precio": "249.95",
+      "nombre": "paquete the crown bloodborne",
+      "stock": "15"
+    },
+    {
+      "id": "40003",
+      "categoría": "merch",
+      "precio": "86.95",
+      "nombre": "polera demon's souls",
+      "stock": "10"
+    },
+    {
+      "id": "40004",
+      "categoría": "merch",
+      "precio": "669.95",
+      "nombre": "paquete the last of us part ii",
+      "stock": "16"
+    },
+    {
+      "id": "40005",
+      "categoría": "merch",
+      "precio": "59.95",
+      "nombre": "polo ghost of tsushima",
+      "stock": "12"
+    },
+    {
+      "id": "40006",
+      "categoría": "merch",
+      "precio": "61.50",
+      "nombre": "funko pop! ghost of tsushima-jin sakai",
+      "stock": "14"
+    },
+    {
+      "id": "40007",
+      "categoría": "merch",
+      "precio": "49.95",
+      "nombre": "polera con cuello redondo",
+      "stock": "15"
+    },
+    {
+      "id": "40008",
+      "categoría": "merch",
+      "precio": "61.50",
+      "nombre": "funko pop! god of war - atreus",
+      "stock": "13"
+    },
+    {
+      "id": "40009",
+      "categoría": "merch",
+      "precio": "29.95",
+      "nombre": "gorra fifa 21",
+      "stock": "15"
+    },
+    {
+      "id": "40010",
+      "categoría": "merch",
+      "precio": "89.95",
+      "nombre": "legion hoodie",
+      "stock": "13"
+    },
+    {
+      "id": "40011",
+      "categoría": "merch",
+      "precio": "89.95",
+      "nombre": "hoodie eivor cosplay",
+      "stock": "15"
+    },
+    {
+      "id": "40012",
+      "categoría": "merch",
+      "precio": "89.95",
+      "nombre": "mochila valhalla comics",
+      "stock": "12"
+    },
+    {
+      "id": "40013",
+      "categoría": "merch",
+      "precio": "529.90",
+      "nombre": "the last of us part ii: ellie statue",
+      "stock": "10"
+    },
+    {
+      "id": "40014",
+      "categoría": "merch",
+      "precio": "129.90",
+      "nombre": "polo y polera uncharted",
+      "stock": "13"
+    },
+    {
+      "id": "40015",
+      "categoría": "merch",
+      "precio": "39.90",
+      "nombre": "funko pop! horizon zero dawn eclipse cultist",
+      "stock": "17"
+    }
+  ]
+}
