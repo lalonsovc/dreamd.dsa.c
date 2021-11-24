@@ -1,0 +1,33 @@
+
+.left h2{
+    text-align: center;
+    font-size: 1.8rem;
+}
+.left ul{
+    margin: 20px;
+    font-size: 1rem; 
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    gap: 40px;
+    align-items: center;
+}
+.left ul li{
+    width: 100px;
+    text-align: center;
+    
+}
+.right h3{
+    font-size: 1.6rem;
+    
+}
+.right .icons_redes{
+    padding: 20px 0;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 30px;
+}
+.icons_redes svg{
+    width: 30px;
+    height: 30px;
+}

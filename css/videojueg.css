@@ -22,6 +22,9 @@ body{
     left: 0;
     z-index: 1;
 }
+.header a{
+    text-decoration: none;
+}
 .logo{
     padding-left: 60px;
     line-height: 80px;
@@ -31,6 +34,7 @@ body{
     -moz-background-clip: text;
     -webkit-text-fill-color:transparent;
     -moz-text-fill-color:transparent;
+    
 }
 .toggle{
     font-size: 2.5rem;
@@ -308,80 +312,10 @@ border-bottom:3px solid #cc33b8;}
 border-radius: 25px 25px 25px 25px;cursor: pointer;border-top:3px solid #cc33b8;border-right:3px solid #33CCCC;border-left:3px solid #33CCCC;
 border-bottom:3px solid #cc33b8;}
 
-:root{
-    --bgColor: #17191b;
-    --colorNeon1: #33CCCC;
-    --colorNeon2:#cc33b8;
-    --colorFont:#fff;
-}
 
-*{margin: 0;padding: 0;box-sizing: border-box; font-family: sans-serif;}
-#contenedor_2{
-    width: 100%;
-    background-color: #17191b;
-    height: 180px;
-    float: left;
-    margin-top: 2310px;
-    border-bottom: solid 3px transparent;
-    border-image: linear-gradient(to right, #33CCCC 0%, #cc33b8 100%) 1;
-}
-#bloque1{
-    width: 30%;
-    float: left;
-    margin-left: 20%;
-}
-.l1{
-   line-height: 100px;
-   padding-left: 100px;
-   background-image: linear-gradient(45deg, var(--colorNeon1),var(--colorNeon2) );
-   background-clip: text;
-   -webkit-background-clip: text;
-   -moz-background-clip: text;
-   -webkit-text-fill-color:transparent;
-   -moz-text-fill-color:transparent;
-   font-size: 30px;
-   width: 300px;
-   margin-left: 100px;
-}
-a {
-    color: var(--colorFont);
-    text-decoration: none;
-}
-.cua1{
-    width: 160px;
-    float: left;
-    margin-left: 10px;
-    text-align: center;
-}
-#bloque2{
-    width: 40%;
-    float: left;
-    color: var(--colorFont);
-    margin-left: 10%;
-}
-h2{
-    line-height: 100px;
-}
-#contenedor_3{
-    width: 100%;
-    height: 100px;
-    background-color: #17191b;
-    float: left;
-    text-align: center;
-    padding: 20px;
-    color: #fff;
-    font-size: 15px;
-}
-#contenedor_3 img{
-    padding-bottom: 20px ;
-}
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: monospace;
-}
+
+
 
 .box{
     width: 200px;
@@ -415,4 +349,77 @@ h2{
 
 .box:hover .hover1{
     width: 100%;
+}
+footer{
+    margin-top: 40px;
+    background: var(--bgColor);
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    
+ 
+}
+footer a{
+    text-decoration: none;
+    color: var(--colorFont);
+}
+.bloque1{
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+    
+}
+.left h2{
+    background-image: var(--gradient);
+   background-clip: text;
+   -webkit-background-clip: text;
+   -moz-background-clip: text;
+   -webkit-text-fill-color:transparent;
+   -moz-text-fill-color:transparent;
+   font-size: 1.5rem;  
+}
+.left ul{
+    font-size: 0.7rem;
+    font-weight: 500;
+    line-height: 1.6rem;
+    list-style: none;
+}
+
+.right h3{
+    font-size: 1rem;
+    color: var(--colorFont);
+}
+.right .icons_redes{
+    padding: 15px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+
+}
+.icons_redes svg{
+    width: 20px;
+    height: 20px;
+}
+.bloque2{
+    padding-top: 20px;
+    border-top: solid 3px transparent;
+    border-image: linear-gradient(to right, #33CCCC 0%, #cc33b8 100%) 1;
+}
+.bloque2 div{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    width: max-content;
+    margin: auto;
+}
+.bloque2 div img{
+    width: 40px;
+}
+
+.bloque2 p{
+    padding: 10px 0;
+    text-align: center;
+    font-size: 0.8rem;
+    color: var(--colorFont);
 }
